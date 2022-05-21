@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+      </head>
+<body>
+    <div class="container">
+        <header>
+        <h1 id="title">CLEAN CITY</h1>
+        <p id="description">Please help us filling the form to help us keep your area clean.</p>
+        </header>  
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+                   type="text"
+                   name="name"
+                   id="name"
+                   class="form-control"
+                   placeholder="Name" required
+            /> 
+         </div>
+          
+         <div class="form-group">
+           <label id="age-range" for="age">How old are you?</label>
+           <select
+                id="dropdown"  
+                name="age-group"
+                class="form-control" 
+                  required>
+             <option value="select-from-above">Select from above</option>
+             <option value="under18">Under
+               18</option> 
+             <option value="18-25">18-25</option>
+             <option value="26-35">26-35</option>
+             <option value="36-45">36-45</option>
+             <option value="46-55">46-55</option>
+             <option value="56-65">56-65</option>
+             <option value="66-above">66 and above</option> 
+           </select>
+          </div>
+          
+          <div class="form-group">
+            <label id="number-label" for="phone-number">Phone number<span class="information">(mobile number)(optional)</span>
+            </label>
+              <input
+                    type="number"
+                    name="phone-number" 
+                    id="phone-number"
+                    class="form-control" 
+                 placeholder="Number" 
+              />       
+          </div>    
+          <div class="form-group">
+            <label id="address-label" for="address">Postal code</label>
+              <input
+                    type="text"
+                    name="address"
+                    id="address"
+                    class="form-control"
+                placeholder="....." required/>
+          </div>   
+          
+          <div class="form-group">
+            <label id="email-label" for="email">Email<span class="information">(optional)</span></label>
+             <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                placeholder="Email" required /> 
+          </div>  
+        
+        <div class="form-group">
+          <label id="number-label" for="number-of-people">How many people live with you?      </label>
+          <input
+                  type="number"
+                  name="number-of-people"
+                  id="number"
+                  min="1"
+                  max="10"
+                  class="form-control"
+                  placeholder="Number" required />
+        </div>  
+        
+        <div class="form-group">
+          <label id="type-of-home" for="house">What best describes the type of house or home you live in?</label>
+           <select
+                  id="dropdown"
+                  name="type-of-house"
+                  class="form-control"
+                  required>
+            <option disabled selected value>Select from the above</option>
+            <option value="detached">Detached</option>
+             <option value="semi-detached">Semi-detached</option>
+             <option value="terraced">Terraced</option>
+             <option value="Appartment-less-5">Building with less than 5 appartments</option>
+             <option value="tower-or-condo">Tower or Condominium</option>
+             <option value="retirment">Retierment Home</option>
+             <option value="other">Other</option>
+             </select>
+        </div>
+          
+        <div class="form-group">
+          <p>How happy are you with the cleanliness of your neighbourhood?</p>
+          <label>
+            <input
+                   name="neighbourhood"
+                   value="disappointed"
+                   type="radio"
+                   class="radio-input" />Dissatisfied</label><br>
+          <label>
+            <input
+                   name="neighbourhood"
+                   value="improved"
+                   type="radio"
+                   class="radio-input" />Can be improved</label><br>
+          <label>
+            <input
+                   name="neighbourhood"
+                   value="neutral"
+                   type="radio"
+                   class="radio-input" />Neutral</label><br>
+          <label>
+            <input
+                   name="neighbourhood"
+                   value="satisfied"
+                   type="radio"
+                   class="radio-input" />Satisfied</label><br>
+          <label>
+            <input
+                   name="neighbourhood"
+                   value="very-satisfied"
+                   type="radio"
+                   class="radio-input" />Very Satisfied</label><br>
+          </div>  
+          
+          <div class="form-group">
+            <p>Does your waste/rubbish bin get emptied?</p>
+             <label>
+            <input
+                   name="waste"
+                   value="never"
+                   type="radio"
+                   class="radio-input" />Never</label><br>
+            <label>
+              <input
+                   name="waste"
+                   value="sometime"
+                   type="radio"
+                   class="radio-input" />Sometimes</label><br>
+            <label>
+              <input
+                   name="waste"
+                   value="Always"
+                   type="radio"
+                   class="radio-input" />Always on time</label><br>
+          </div>
+          
+          <div class="form-group">
+            <p>What do you think should be done to keep your area clean?<span class="information">(Select all that apply)</span></p>
+            <label>
+              <input
+                   name="think-clean"
+                   value="Empty-bin"
+                   type="checkbox"
+                     class="checkbox-input"/>Empty bin ontime</label><br>
+           
+            <label>
+              <input
+                   name="think-clean"
+                   value="recycle"
+                   type="checkbox"
+                     class="checkbox-input"/>Recycle responsibly</label><br>   
+           
+            <label>
+              <input
+                   name="think-clean"
+                   value="no-littering"
+                   type="checkbox"
+                     class="checkbox-input"/>Do not litter</label><br>  
+           
+            <label>
+              <input
+                   name="think-clean"
+                   value="clean-parks"
+                   type="checkbox"
+                     class="checkbox-input"/>Keep green areas like communal gardens, parks, backyards clean</label><br>  
+            <label>
+              <input
+                   name="think-clean"      
+                   value="visual-signs"
+                   type="checkbox"
+                     class="checkbox-input"/>Encourage cleanliness with visual prompts</label><br> 
+            <label>
+              <input
+                   name="think-clean"
+                   value="awareness"
+                   type="checkbox"
+                   class="checkbox-input"/>Raise  awareness on cleanliness</label> 
+          </div>
+          
+          <div class="form-group">
+            <p>Any suggestion or comments on how to keep your area clean?</p>
+            <textarea
+                   id="suggestions"
+                   class="textarea-input"
+                   name="suggestions" 
+                      placeholder="Text area...">       </textarea>
+          </div>
+          
+          <div class="form-group">
+            <button
+                    type="submit"
+                    id="submit"
+                    class="button">Submit</button>
+          </div> 
+          <div class="thank-you">
+            <p>Thank You!!!</p>
+          </div>  
+        </form>
+        <p>Things to do:</p>
+<ul id="list"></ul>
+<input id="text" />
+<button id="button">add Todo Item</button>
+
+        </div>  
+        <script src="trial.js"></script>
+</body>
+</html>
