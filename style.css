@@ -1,0 +1,117 @@
+@import
+url(https://fonts.google.com/specimen/Josefin+Sans#standard-styles);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/people-cleaning-city-park-volunteers-cartoon-characters-collecting-garbage-vector-illustration-environment-activists-men-women-179859068.jpg);
+  background-size: cover;
+  backgrond-repeat: no-repeat;  
+  background-position: center;
+
+}
+
+
+.container {
+  width: 600px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  box-sizing: border;
+  text-align: center;
+  background-color: #e7fdd1;
+  border-radius: 12px  
+}
+
+h1 {
+  margin-top: 20px;
+  font-weight: 9000;
+  line-height: 2;
+  text-align: center;
+  font-family: Josefin, sans-serif;
+  font-size: 60px;
+  color: #006994;
+  text-shadow: 4px 4px #ff0000;
+}
+
+
+#description {
+  text-align: center;
+  padding: 4px;
+  font-family: Josefin, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #C04000;
+}
+
+p {
+  text-align: center;
+  padding: 4px;
+  font-family: Josefin, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #C04000;
+}
+
+.form {
+  background: inline;
+  padding: 00px;
+  border-radius: 100px;
+  color: #FFFFFF:
+}
+
+.form-control {
+  display: block;
+  height: 30px;
+  width: 580px;
+  border-radius: 60px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.form-group {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;  
+  color: #006994;
+  font-family: Josefin, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.radio-input,
+.checkbox-input {
+  display: in-line block;
+  margin-left: 12px;
+  min-height: 15px;
+  min-width: 20px;  
+}
+
+ .textarea-input {
+  width: 500px;
+  height: 150px; 
+  margin-top: 12px;
+  line-height: 3; 
+  font-family: Josefin, sans-serif;
+  font-size: 17px; 
+  color: #000000; 
+  border-radius: 10%; 
+}
+
+.button { 
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #85BB65;
+  font-family: Josefin, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  }
+
+.information {
+  font-size: 15px;
+  font-style: italic;
+}
